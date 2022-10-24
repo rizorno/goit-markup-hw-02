@@ -23,22 +23,11 @@ body {
   display: none;
 }
 
-.hat-navigation,
-.hat-contact,
-.features .list,
-.service .list,
-.team .list,
-.filter,
-.works,
-.lower-contact {
+.list {
   list-style: none;
 }
 
-.hat > a,
-.hat a,
-.works a,
-.lower > a,
-.lower a {
+.link {
   text-decoration: none;
 }
 
@@ -113,7 +102,7 @@ body {
 .hat-contact a:hover,
 .hat-contact a:focus,
 .communication a:hover,
-.comunnication a:focus {
+.communication a:focus {
   color: var(--hover-focus-button);
 }
 
